@@ -1,0 +1,85 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header{
+	margin: 5px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: solid blue 3px;
+	width: 50%;
+}
+
+h1{
+
+}
+
+a{
+	font-size: 16px;
+	padding: 10px;
+	
+}
+
+.like-button
+{
+	border: solid gray 2px;
+	border-radius: 10%;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+.task{
+	display: flex;
+}
+
+.task-info{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	list-style-type: none; /* Убираем маркеры */
+	border: solid gray 2px;
+}
+
+.task-header{
+	display: flex;
+	justify-content: space-between;
+}
+
+h2{
+	margin: 5px;
+}
+
+p{
+	margin: 0;
+	margin-top: 1%; 
+	margin-bottom: 1%; 
+	font-size: 16px;
+}
+
+.center-paragraph{
+	align-self: center;
+}
+
+form{
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+}
